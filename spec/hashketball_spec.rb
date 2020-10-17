@@ -189,3 +189,13 @@ describe 'hashketball' do
   end
 
 end
+
+
+  describe '#most_points_scored' do
+    
+    it 'returns name of the player with most points scored' do
+      expect(most_points_scored(game_hash)).to eq("Kemba Walker")
+    end
+  end
+end
+

@@ -1,4 +1,5 @@
 # Write your code below game_hash
+binding.pry
 
 def game_hash
   {
@@ -213,3 +214,4 @@ def most_points_scored(game_hash)
   players = game_hash[:home][:players].merge(game_hash[:away][:players])
   binding.pry
 end
+

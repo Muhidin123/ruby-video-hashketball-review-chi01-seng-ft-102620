@@ -190,4 +190,4 @@ describe 'hashketball' do
 
 end
 
-
+  describe 'num_points_scored_player'

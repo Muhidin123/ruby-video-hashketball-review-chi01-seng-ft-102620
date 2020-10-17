@@ -209,3 +209,6 @@ def big_shoe_rebounds
   rebounds
 end
 
+def most_points_scored(game_hash)
+  players = game_hash[:home][:players].merge()
+end

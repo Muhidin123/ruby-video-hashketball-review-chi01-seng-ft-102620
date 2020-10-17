@@ -195,6 +195,5 @@ end
     it 'returns player name with most points' do
       expect(num_points_scored_player(game_hash)).to eq("Ben Gordon")
     end
-    
   end
-  end
+end
